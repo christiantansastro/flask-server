@@ -61,7 +61,7 @@ def process():
 
     # threshold on contrast
     lower = np.array([20, 20, 20])
-    upper = np.array([50, 50, 50])
+    upper = np.array([55, 55, 55])
     thresh = cv2.inRange(img, lower, upper)
 
     # apply horizontal morphology
